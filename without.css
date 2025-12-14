@@ -1,0 +1,57 @@
+.back{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(225, 209, 209);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+.cont{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+input{
+    width: 280px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 0px;
+   left: -80px;
+}
+.edit{
+    position: relative;
+    top: 40px;
+    left:-80px;
+}
+button{
+     width:100px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+}
+button:hover{
+    background-color: blue;
+}
+.del{
+    width:110px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top:450px ;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.del a{
+    text-decoration: none;
+}

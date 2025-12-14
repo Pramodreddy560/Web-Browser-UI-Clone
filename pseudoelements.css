@@ -1,0 +1,23 @@
+h1::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: brown;
+    background-color: aquamarine;
+}
+p::selection{
+    color: chartreuse;
+    background-color: blueviolet;
+}
+[type]::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label::after{
+    content: "*";
+    color: darkred;
+}
+label::before{
+    content: "_ _";
+    color: blue;
+}
+

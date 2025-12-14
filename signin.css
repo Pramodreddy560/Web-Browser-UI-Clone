@@ -1,0 +1,114 @@
+.goog{
+    height: 130px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+
+fieldset{
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    
+}
+input{
+    border: none;
+}
+
+#google{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#google pre{
+     font-family: "roboto", sans-serif;
+     font-size: 26px;
+}
+#sign{
+     width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#sign pre{
+    margin-top: 0px;
+}
+
+#forgot{
+    width:100px;
+    height: 30px;
+    position: absolute;
+    top: 315px;
+    left: 550px;
+}
+#forgot a{
+    text-decoration: none;
+}
+
+#sodhi{
+    width:400px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+#sodhi pre{
+     font-family: "roboto", sans-serif;
+     font-size: 14px;
+}
+#sodhi a{
+    text-decoration: none;
+}
+
+#account{
+    width:100px;
+    height: 30px;
+    position: absolute;
+    left: 550px;
+    top: 500px;
+}
+#account a{
+    text-decoration: none;
+}
+
+.button{
+     width:100px;
+    height: 30px;
+    position: absolute;
+    left: 850px;
+    top: 500px;
+    background-color: blue;
+    color: white;  
+}
+
+select{
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+}
+select:hover{
+    background-color: aliceblue;
+}
+.help{
+    width:150px;
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    left: 850px;
+}

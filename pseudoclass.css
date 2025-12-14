@@ -1,0 +1,30 @@
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid black;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+    color: green;
+}
+[type ="checkbox"]:checked{
+    outline: 2px solid red;
+}
+button:disabled{
+    background-color: brown;
+}
+[type]:focus{
+    background-color: aqua;
+}
+h1:first-child{
+    color: blue;
+}
+h1:last-child{
+    color: yellow;
+}
+h1:nth-child(3){
+    color: chocolate;
+}

@@ -1,0 +1,13 @@
+.what{
+    width: 700px;
+    height: 200px;
+    font-family: "roboto",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+

@@ -1,0 +1,105 @@
+.nav{
+    width: 80%;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 0px;
+    border-radius: 30px;
+    padding-left: 25px;
+    position: absolute;
+    left: 80px;
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.head{
+    width: 100%;
+    height: 60px;
+   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: first baseline;
+    align-items: last baseline;
+}
+
+.img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    height: 35px;
+    width: 67%;
+    border-radius: 50px;
+}
+.search{
+    margin-top: 50px;
+    padding-left: 300px;
+    
+}
+
+.searchbar{
+    padding-left: 20px;
+}
+.upper{
+    width:90px;
+    height:100px;
+   
+    
+   padding-left: 20px ;
+   padding-top: 10px;
+}
+.upper:hover{
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.inside{
+    width: 60px;
+    height: 60px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.word{
+    text-decoration: none;
+    color: white;
+}
+.whole{
+    width: 600px;
+    height: 250px;
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    margin-left: 400px;
+}
+.upper:hover{
+    transform: scale(1.1);
+}
+
+
+body{
+    width: 100%;
+    height: 700px;
+    
+
+}
+body{
+    background-image: url("./batman\ wallpaper\ for\ laptop.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
