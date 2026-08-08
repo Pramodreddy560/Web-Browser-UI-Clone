@@ -3,102 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Web Browser UI Clone</title>
+
     <link rel="stylesheet" href="grekgod.css">
 </head>
 
 <body>
-  <div class="whole">
-  <div class="upper">
-  <div class="inside">
-    <a href="https://www.codechef.com/dashboard">
-      <img src="codechef.png" alt="CodeChef Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://www.codechef.com/dashboard"><p>CodeChef</p></a>
-</div>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://mail.google.com/mail/u/0/#inbox">
-      <img src="Gmail.png" alt="gmail Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://mail.google.com/mail/u/0/#inbox"><p>Gmail</p></a>
-</div>
+    <main class="browser-home">
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://www.youtube.com/">
-      <img src="YouTube.png" alt="YouTube Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://www.youtube.com/"><p>YouTube</p></a>
-</div>
+        <section class="shortcuts">
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://monkeytype.com/">
-      <img src="MonkeyType.png" alt="MonkeyType Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://monkeytype.com/"><p>MonkeyType</p></a>
-</div>
+            <!-- CodeChef -->
+            <a class="shortcut" href="https://www.codechef.com/dashboard" target="_blank">
+                <div class="icon">
+                    <img src="codechef.png" alt="CodeChef">
+                </div>
+                <span>CodeChef</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://music.youtube.com/">
-      <img src="YouTube Music.png" alt="YouTube Music Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://music.youtube.com/"><p>YT Music</p></a>
-</div>
+            <!-- Gmail -->
+            <a class="shortcut" href="https://mail.google.com/" target="_blank">
+                <div class="icon">
+                    <img src="Gmail.png" alt="Gmail">
+                </div>
+                <span>Gmail</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://leetcode.com/">
-      <img src="LeetCode.png" alt="LeetCode Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://leetcode.com/"><p>LeetCode</p></a>
-</div>
+            <!-- YouTube -->
+            <a class="shortcut" href="https://www.youtube.com/" target="_blank">
+                <div class="icon">
+                    <img src="YouTube.png" alt="YouTube">
+                </div>
+                <span>YouTube</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/">
-      <img src="Strivrs.png" alt=" Strivrs Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"><p>Strivrs</p></a>
-</div>
+            <!-- MonkeyType -->
+            <a class="shortcut" href="https://monkeytype.com/" target="_blank">
+                <div class="icon">
+                    <img src="MonkeyType.png" alt="MonkeyType">
+                </div>
+                <span>MonkeyType</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://www.geeksforgeeks.org/python-programming-language-tutorial/#python-inputoutput">
-      <img src="geeksforgeeks.png" alt="geeksforgeeks Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://www.geeksforgeeks.org/python-programming-language-tutorial/#python-inputoutput"><p>geeksforgeeks</p></a>
-</div>
+            <!-- YouTube Music -->
+            <a class="shortcut" href="https://music.youtube.com/" target="_blank">
+                <div class="icon">
+                    <img src="YouTube Music.png" alt="YouTube Music">
+                </div>
+                <span>YouTube Music</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="http://localhost:8888/tree">
-      <img src="jupyter.png" alt="jupyter Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="http://localhost:8888/tree"><p>jupyter</p></a>
-</div>
+            <!-- LeetCode -->
+            <a class="shortcut" href="https://leetcode.com/" target="_blank">
+                <div class="icon">
+                    <img src="LeetCode.png" alt="LeetCode">
+                </div>
+                <span>LeetCode</span>
+            </a>
 
-<div class="upper">
-  <div class="inside">
-    <a href="https://github.com/">
-      <img src="GitHub2.png" alt="CodeChef Icon" width="60px" height="60px">
-    </a>
-  </div>
-  <a class="word" href="https://github.com/"><p>GitHub</p></a>
-</div>
-</div>
-   
+            <!-- Striver -->
+            <a class="shortcut"
+               href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+               target="_blank">
+                <div class="icon">
+                    <img src="Strivrs.png" alt="Striver A2Z DSA">
+                </div>
+                <span>Striver A2Z</span>
+            </a>
+
+            <!-- GeeksforGeeks -->
+            <a class="shortcut"
+               href="https://www.geeksforgeeks.org/python-programming-language-tutorial/"
+               target="_blank">
+                <div class="icon">
+                    <img src="geeksforgeeks.png" alt="GeeksforGeeks">
+                </div>
+                <span>GeeksforGeeks</span>
+            </a>
+
+            <!-- Jupyter -->
+            <a class="shortcut" href="http://localhost:8888/tree" target="_blank">
+                <div class="icon">
+                    <img src="jupyter.png" alt="Jupyter Notebook">
+                </div>
+                <span>Jupyter</span>
+            </a>
+
+            <!-- GitHub -->
+            <a class="shortcut" href="https://github.com/" target="_blank">
+                <div class="icon">
+                    <img src="GitHub2.png" alt="GitHub">
+                </div>
+                <span>GitHub</span>
+            </a>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
