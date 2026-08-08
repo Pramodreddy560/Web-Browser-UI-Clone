@@ -51,3 +51,29 @@ Web-Browser-UI-Clone/
 ├── grekgod.css
 │
 └── Assets
+
+## 📸 Screenshots
+
+### Chrome Profile Selection
+
+![Chrome Profile Selection](screenshots/Screenshot%20(77).png)
+
+### Add Profile
+
+![Add Profile](screenshots/Screenshot%20(78).png)
+
+### Sign In
+
+![Sign In](screenshots/Screenshot%20(79).png)
+
+### Guest Mode
+
+![Guest Mode](screenshots/Screenshot%20(80).png)
+
+### Home Page
+
+![Home Page](screenshots/Screenshot%20(81).png)
+
+### Browser Interface
+
+![Browser Interface](screenshots/Screenshot%20(82).png)
