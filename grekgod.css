@@ -1,34 +1,131 @@
-.upper{
-    width:90px;
-    height:100px;
-    border: 2px solid black;
-   padding-left: 20px ;
-   padding-top: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.inside{
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #202124;
+    color: #ffffff;
+}
+
+.browser-home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.shortcuts {
+    width: min(900px, 100%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    padding: 20px 10px;
+    border-radius: 12px;
+
+    transition: background-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+.shortcut:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    transform: translateY(-3px);
+}
+
+.icon {
+    width: 72px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    border-radius: 50%;
+
+    margin-bottom: 10px;
+
+    overflow: hidden;
+}
+
+.icon img {
     width: 60px;
     height: 60px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    object-fit: contain;
 }
-.word{
-    text-decoration: none;
+
+.shortcut span {
+    max-width: 120px;
+
+    font-size: 14px;
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.whole{
-    width: 600px;
-    height: 250px;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-shrink: 1;
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .shortcuts {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .icon img {
+        width: 52px;
+        height: 52px;
+    }
 }
-.upper:hover{
-    transform: scale(1.1);
+
+/* Mobile */
+@media (max-width: 500px) {
+
+    .browser-home {
+        padding: 30px 15px;
+    }
+
+    .shortcuts {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .shortcut {
+        padding: 15px 5px;
+    }
+
+    .icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .icon img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .shortcut span {
+        font-size: 12px;
+    }
 }
